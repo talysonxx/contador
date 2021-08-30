@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
+import './App.css'
 
 export default function App() {
   setInterval(getTime, 1000)
   
-  const [time, setTime] = useState()
+  const [time, setTime] = useState('Loading timer...')
 
   function getTime(){
     const date = new Date()
@@ -12,7 +13,7 @@ export default function App() {
     const second = date.getSeconds()
     const now = `${hour}:${minute}:${second}`
     setTime(now)
-    document.title = 'Time: ' + now
+    document.title = 'Timer: ' + now
   }
 
   return (
