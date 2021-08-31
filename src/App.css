@@ -1,3 +1,4 @@
+/* reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,11 +7,14 @@
 }
 body {
   background-color: #F4F8F7;
-} 
+}
 
+/* main */
 .timer-container {
-  width: 400px;
-  height: 300px;
+  /* width: 400px; */
+  width:35%;
+  /* height: 300px; */
+  height: 35%;
 
   position: absolute;
   top: 50%;
@@ -18,7 +22,8 @@ body {
   transform: translate(-50%, -50%);
 
   border-radius: 5px;
-  background-color: #6FB1D1;
+  /* background-color: #6FB1D1; */
+  background-image: linear-gradient(to bottom right, #4A8AB8, #509BC5, #A3AABF);
   /* left, button and  blur*/
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
@@ -31,4 +36,43 @@ body {
   color: #302513;
   font-family: Roboto, sans-serif;
   font-size: 2em;
+}
+
+/* mobile e afins */
+@media only screen and (max-width: 950px) {
+  .timer-container {
+    width: 50%;
+    height: 50%;
+  }
+  .timer {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .timer-container {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .timer-container {
+    height: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .timer-container {
+    width: 80%;
+  }
+  .timer {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .timer-container {
+    width: 80%;
+    height: 40%;
+  }
+  .timer {
+    font-size: 2em;
+  }
 }

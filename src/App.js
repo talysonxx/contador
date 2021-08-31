@@ -20,6 +20,6 @@ export default function App() {
     <div className='timer-container'>
       <span className='timer'>{time}</span>
     </div>
-  );
+  )
 
 }
