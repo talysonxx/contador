@@ -1,4 +1,4 @@
-![Screenshot_1](https://user-images.githubusercontent.com/79946114/131404171-ba76e8d4-9763-492a-b6fd-575835ffee9c.png)
+![Screenshot_1](https://user-images.githubusercontent.com/79946114/131518693-c53f802b-6048-4f0a-8343-b08899285874.png)
 #### Contador simples
 
 ###### Meus **contatos**
